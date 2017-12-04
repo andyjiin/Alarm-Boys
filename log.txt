@@ -1,0 +1,63 @@
+2017-11-28 20:03:15 INFO: Ready for Demo! 
+2017-11-28 20:01:15 DEBUG: flashing of the screen resolved
+2017-11-28 20:39:15 DEBUG: successful conversion of alarm display message
+2017-11-28 20:33:15 DEBUG: sleep sensor fixed to be accurate to the second
+2017-11-28 24:02:15 DEBUG: screen does not update consistently 
+2017-11-27 24:01:07 INFO: improve accuracy of the number of hours slept due to time constaints of the demo
+2017-11-26 23:11:15 DEBUG: screen does not update consistently 
+2017-11-26 23:55:15 DEBUG: boolean value to track if the user is sleeping
+2017-11-25 20:45:19 INFO: only display stats info when the user gets out of his bed
+2017-11-25 20:45:15 INFO: only allow the alarm to be reset after the snooze button has been pressed for 3 seconds
+2017-11-25 20:33:12 INFO: only display information for a set amount of time 
+2017-11-25 20:11:15 DEBUG: convert char array to string and then back again 
+2017-11-25 19:44:23 DEBUG: User is considered to be asleep when they are in the bed for 10s  
+2017-11-25 02:22:15 DEBUG: Alarm only goes off when the user is in the bed
+2017-11-25 01:44:15 INFO: Alarm functions that help user
+2017-11-24 24:00:06 DEBUG: scrolling fixed
+2017-11-24 23:50:15 DEBUG: convert all strings to be displayed into char pointers
+2017-11-24 21:44:15 ERROR: type mismatch 
+2017-11-24 21:44:10 FATAL: oled-exp.h not found in directory 
+2017-11-24 20:55:15 DEBUG: esure that outputs do not exceed maximum screen size (don't go off the screen) 
+2017-11-23 10:56:00 INFO: Timing of output
+2017-11-23 10:44:15 INFO: Start output to screen functions
+2017-11-23 09:45:15 DEBUG: able to compile with xCompile.h
+2017-11-23 09:44:15 DEBUG: replace to_string and stoi() functions with other compatible ones
+2017-11-22 08:44:32 FATAL: to_string() and stoi() is not available in ubuntu compilier 
+2017-11-22 07:23:15 DEBUG: format sleep statistics file to match the output on the oled
+2017-11-22 24:44:15 INFO: successfully created the read and write gpio
+2017-11-22 24:32:24 INFO: write and read statistics from file 
+2017-11-22 23:49:15 DEBUG: wrong number of hours slept (negatigve cases)  
+2017-11-21 24:44:25 INFO: create algorithms to calculate length time 
+2017-11-21 24:44:09 FATAL: failed to open sleep statistics file
+2017-11-21 24:36:15 DEBUG: maximum hours does not exceed 24 
+2017-11-21 23:46:10 DEBUG: maxmimum minutes does not exceed 59 
+2017-11-21 23:45:15 DEBUG: Allow user to set their own alarm time
+2017-11-21 23:44:27 INFO: Start the alarm functions 
+2017-11-21 23:32:15 INFO: Sorting functions started
+2017-11-20 22:44:15 FATAL: segmentation fault due to error in linked list creation  
+2017-11-20 22:12:29 INFO: Create linked list to store information 
+2017-11-20 21:44:15 INFO: Start statistics calculations
+2017-11-20 21:44:09 ERROR: type mismatch 
+2017-11-20 20:32:32 FATAL: segmentation fault with user not giving an intial time
+2017-11-19 20:11:15 DEBUG: fixed the getTime() function to get local time 
+2017-11-19 20:09:37 FATAL: failed to open weather and temperature file 
+2017-11-19 07:44:15 INFO: Gets the weather from an html file
+2017-11-19 20:14:15 INFO: Implement the get weather function
+2017-11-17 20:12:39 DEBUG: fixed the getTime() function to get local time 
+2017-11-17 19:44:15 DEBUG: fixed the getTime() function to get local time 
+2017-11-17 18:44:15 INFO: For demo purposes allow user to set number of seconds the game loop is to be run 
+2017-11-17 18:06:15 INFO: create a game loop in main 
+2017-11-16 20:44:49 WARNING: size of array too small
+2017-11-16 20:59:15 WARNING: used '=' instead of '==' for comparison 
+2017-11-16 20:23:31 INFO: convert the gpio library into a class
+2017-11-16 20:21:15 INFO: successfully created the read and write gpio 
+2017-11-14 19:22:32 FATAL: failed to open gpio file
+2017-11-14 18:46:15 ERROR: missing } 
+2017-11-14 18:44:45 DEBUG: convert the new file name correctly for removing pins
+2017-11-14 01:44:31 DEBUG: convert the new file name correctly for adding pins
+2017-11-14 01:22:33 DEBUG: convert the new file name correctly for gpio writing
+2017-11-14 20:44:19 DEBUG: convert the new file name correctly for gpio reading
+2017-11-12 21:44:10 WARNING: size of array too small
+2017-11-12 21:23:12 WARNING: did not initialize a varaible required 
+2017-11-11 20:47:43 ERROR: type mismatch 
+2017-11-11 20:06:11 INFO: Start creation of gpio reading and writing library 
